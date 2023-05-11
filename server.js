@@ -21,7 +21,7 @@ const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
 
 const PORT = process.env.PORT || 8000;
-const URL = process.env.MONGODB_URI || `mongodb://${USERNAME}:${PASSWORD}@ac-vb6dr9s-shard-00-00.v1serrq.mongodb.net:27017,ac-vb6dr9s-shard-00-01.v1serrq.mongodb.net:27017,ac-vb6dr9s-shard-00-02.v1serrq.mongodb.net:27017/?ssl=true&replicaSet=atlas-ll7mze-shard-0&authSource=admin&retryWrites=true&w=majority`;
+const URL = process.env.MONGODB_URI || `mongodb://${USERNAME}:${PASSWORD}@ac-6v6qr7j-shard-00-00.4lw8zd6.mongodb.net:27017,ac-6v6qr7j-shard-00-01.4lw8zd6.mongodb.net:27017,ac-6v6qr7j-shard-00-02.4lw8zd6.mongodb.net:27017/?ssl=true&replicaSet=atlas-grnsb5-shard-0&authSource=admin&retryWrites=true&w=majority`;
 
 Connection(URL);
 
